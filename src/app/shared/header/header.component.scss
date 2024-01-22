@@ -1,3 +1,19 @@
-.example-spacer {
-  flex: 1 1 auto;
+.app-header {
+  .mat-toolbar {
+    background-color: #1d1b20;
+    color: #ffffff;
+    padding: 0 256px;
+
+    button {
+      margin: 0 16px;
+    }
+
+    .spacer {
+      flex: 1 1 auto;
+    }
+
+    .mat-mdc-outlined-button:not(:disabled) {
+      border-color: #79747e;
+    }
+  }
 }
